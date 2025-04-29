@@ -13,11 +13,6 @@ Ini adalah website portfolio sederhana berbasis Bootstrap 5.
 - Smooth Navigation
 - Bootstrap 5 Components
 
-## 🌐 Cara Lihat Live Preview:
-Setelah upload ke GitHub Pages, akses:
-https://username.github.io/muhirabazram-portfolio/
-(Ganti 'username' dengan username GitHub kamu.)
-
 ---
 
 Dibuat dengan ❤️ oleh Muhirabazram.
