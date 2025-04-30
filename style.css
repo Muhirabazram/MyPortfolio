@@ -94,7 +94,7 @@ section {
 
 .about-section {
   padding: 80px 20px;
-  background-color: #0a0a0a;
+  background: linear-gradient(135deg, #003300, #001a00);
   color: #d0ffd0;
 }
 
