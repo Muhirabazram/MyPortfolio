@@ -92,6 +92,76 @@ section {
   margin: 60px 0;
 }
 
+.about-section {
+  padding: 80px 20px;
+  background-color: #0a0a0a;
+  color: #d0ffd0;
+}
+
+.section-title {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #ffffff;
+  position: relative;
+}
+
+.section-divider {
+  width: 60px;
+  height: 3px;
+  background-color: #00cc99;
+  margin: 10px auto 30px auto;
+  border-radius: 2px;
+}
+
+.about-description {
+  max-width: 800px;
+  margin: 0 auto 20px auto;
+  font-size: 1.1rem;
+  line-height: 1.7;
+  color: #d0ffd0;
+}
+
+.about-subheading {
+  margin-top: 30px;
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+
+.about-list {
+  list-style: none;
+  padding-left: 0;
+  max-width: 700px;
+  margin: 0 auto 40px auto;
+  text-align: left;
+}
+
+.about-list li {
+  margin-bottom: 10px;
+  font-size: 1rem;
+}
+
+.check-icon {
+  color: #00cc99;
+  margin-right: 10px;
+}
+
+.about-btn {
+  padding: 10px 20px;
+  border: 2px solid #00cc99;
+  color: #00cc99;
+  background: transparent;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: 0.3s;
+  text-decoration: none;
+}
+
+.about-btn:hover {
+  background-color: #00cc99;
+  color: #000;
+}
+
+
 /* Kartu */
 .card {
   background-color: #003300;
