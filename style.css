@@ -168,8 +168,8 @@ section {
 #services {
   background-color: #112d19;
   color: #d0ffd0;
+  padding: 80px 20px;
 }
-
 #services .card {
   background-color: #1c3b2b;
   border: 1px solid #1f4c36;
@@ -177,24 +177,20 @@ section {
   transition: transform 0.3s, box-shadow 0.3s;
   border-radius: 10px;
 }
-
 #services .card:hover {
   transform: translateY(-8px);
   box-shadow: 0 6px 20px rgba(0, 255, 153, 0.1);
 }
-
 #services .card-title {
   font-weight: bold;
   color: #ffffff;
 }
-
 #services .btn-primary {
   background-color: #00cc99;
   border: none;
   color: #000;
   font-weight: bold;
 }
-
 #services .btn-primary:hover {
   background-color: #00b386;
   color: #000;
