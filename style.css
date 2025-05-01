@@ -42,29 +42,31 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 30px 15px;
+  padding: 0;
   box-sizing: border-box;
+}
+
+.banner .container {
+  height: 100%;
 }
 
 .banner-text {
   color: #ffffff;
-  padding-right: 20px;
 }
 
 .banner-text h1 {
   font-size: 2.8rem;
   font-weight: bold;
   margin-bottom: 1rem;
-  color: #ffffff;
 }
+
 .banner-text p {
-  font-size: 1.3rem;
-  margin-bottom: 1.5rem;
+  font-size: 1.2rem;
   color: #d0ffd0;
 }
 
 .banner-image img {
-  max-height: 280px;
+  max-height: 300px;
   width: auto;
   border-radius: 12px;
 }
@@ -220,19 +222,11 @@ footer {
 /* Responsive */
 @media (max-width: 767px) {
   .banner {
-    flex-direction: column;
     text-align: center;
-    padding: 20px;
-    position: absolute;
-  }
-
-  .banner-text {
-    padding-right: 0;
-    margin-bottom: 20px;
   }
 
   .banner-text h1 {
-    font-size: 1.8rem;
+    font-size: 2rem;
   }
 
   .banner-text p {
@@ -241,6 +235,7 @@ footer {
 
   .banner-image img {
     max-height: 200px;
+    margin-top: 20px;
   }
 }
 
