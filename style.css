@@ -114,6 +114,7 @@ section {
   padding: 80px 20px;
   background-color: #013220;
   color: #d0ffd0;
+  margin-bottom: 0;
 }
 .about-section .container {
   max-width: 1000px;
@@ -164,6 +165,7 @@ section {
 
 /* Services Section Styling */
 #services {
+  margin-top: 0;
   background-color: #112d19;
   color: #d0ffd0;
   padding: 80px 20px;
