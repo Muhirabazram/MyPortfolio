@@ -270,6 +270,19 @@ section {
   color: #000;
 }
 
+/* FAQ Section */
+#faq .accordion-button {
+  background-color: #1c3b2b;
+  color: #d0ffd0;
+  font-weight: bold;
+}
+
+#faq .accordion-button:not(.collapsed) {
+  background-color: #00cc99;
+  color: #000;
+}
+
+
 /* Footer */
 footer {
   background-color: #006400;
