@@ -196,6 +196,31 @@ section {
   color: #000;
 }
 
+/* Portfolio Section */
+#portfolio {
+  background-color: #0f2a1a; /* hijau gelap sedikit lebih terang */
+  color: #d0ffd0;
+  padding: 80px 20px;
+}
+
+#portfolio .btn-outline-light {
+  border-color: #00cc99;
+  color: #00cc99;
+}
+
+#portfolio .btn-outline-light.active,
+#portfolio .btn-outline-light:hover {
+  background-color: #00cc99;
+  color: #000;
+}
+
+#portfolio img {
+  transition: transform 0.3s ease;
+}
+
+#portfolio img:hover {
+  transform: scale(1.03);
+}
 
 /* Kartu */
 .card {
