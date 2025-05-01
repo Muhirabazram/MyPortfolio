@@ -65,7 +65,7 @@
 </div>
 
 <!-- About Section -->
-<section id="about" class="about-section text-center">
+<section id="about" class="about-section text-left">
   <div class="container">
     <h2 class="section-title">ABOUT ME</h2>
     <div class="section-divider"></div>
@@ -81,6 +81,79 @@
     <a href="#projects" class="btn about-btn">More →</a>
   </div>
 </section>
+
+<!-- Services Section -->
+<section id="services" class="py-5">
+  <div class="container">
+    <h2 class="text-center mb-4">Services</h2>
+    <div class="row">
+      <!-- Web Development Card -->
+      <div class="col-md-4 mb-4">
+        <div class="card h-100 shadow-sm">
+          <div class="card-body">
+            <h5 class="card-title">Web Development</h5>
+            <p class="card-text">Membangun website responsif dan fungsional menggunakan HTML, CSS, JavaScript, dan Bootstrap.</p>
+            <button class="btn btn-primary" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWebDev">Detail</button>
+          </div>
+        </div>
+      </div>
+      <!-- UI/UX Design Card -->
+      <div class="col-md-4 mb-4">
+        <div class="card h-100 shadow-sm">
+          <div class="card-body">
+            <h5 class="card-title">UI/UX Design</h5>
+            <p class="card-text">Merancang antarmuka pengguna yang intuitif dan menarik menggunakan Figma dan alat desain lainnya.</p>
+            <button class="btn btn-primary" data-bs-toggle="offcanvas" data-bs-target="#offcanvasUIDesign">Detail</button>
+          </div>
+        </div>
+      </div>
+      <!-- Photography Card -->
+      <div class="col-md-4 mb-4">
+        <div class="card h-100 shadow-sm">
+          <div class="card-body">
+            <h5 class="card-title">Photography</h5>
+            <p class="card-text">Mengabadikan momen spesial dan memperindahnya melalui teknik editing profesional.</p>
+            <button class="btn btn-primary" data-bs-toggle="offcanvas" data-bs-target="#offcanvasPhotography">Detail</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Offcanvas for Web Development -->
+<div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasWebDev" aria-labelledby="offcanvasWebDevLabel">
+  <div class="offcanvas-header">
+    <h5 id="offcanvasWebDevLabel">Web Development</h5>
+    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+  <div class="offcanvas-body">
+    <p>Saya membangun website yang responsif dan fungsional menggunakan teknologi terbaru seperti HTML5, CSS3, JavaScript, dan framework Bootstrap. Proyek saya mencakup berbagai jenis situs, mulai dari landing page hingga aplikasi web kompleks.</p>
+  </div>
+</div>
+
+<!-- Offcanvas for UI/UX Design -->
+<div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasUIDesign" aria-labelledby="offcanvasUIDesignLabel">
+  <div class="offcanvas-header">
+    <h5 id="offcanvasUIDesignLabel">UI/UX Design</h5>
+    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+  <div class="offcanvas-body">
+    <p>Saya merancang antarmuka pengguna yang intuitif dan menarik dengan fokus pada pengalaman pengguna. Menggunakan alat seperti Figma, saya memastikan desain yang saya buat tidak hanya estetis tetapi juga fungsional.</p>
+  </div>
+</div>
+
+<!-- Offcanvas for Photography -->
+<div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasPhotography" aria-labelledby="offcanvasPhotographyLabel">
+  <div class="offcanvas-header">
+    <h5 id="offcanvasPhotographyLabel">Photography</h5>
+    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+  <div class="offcanvas-body">
+    <p>Fotografi adalah passion saya. Saya mengabadikan momen-momen spesial dan memperindahnya melalui teknik editing menggunakan aplikasi seperti Lightroom dan Snapseed.</p>
+  </div>
+</div>
+
 
 <!-- Projects Section -->
 <section id="projects" class="container">
