@@ -185,8 +185,6 @@ section {
   font-weight: bold;
   color: #ffffff;
 }
-#services .section-title {
-  color: #003300;
 }
 #services .btn-primary {
   background-color: #00cc99;
@@ -231,9 +229,42 @@ section {
   color: #ffffff;
 }
 
-/* Progress bar */
-.progress-bar {
-  background-color: #00cc00;
+/* Skills Section */
+#skills {
+  background-color: #112d19;
+  color: #d0ffd0;
+  padding: 80px 20px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+#skills .progress-bar {
+  background-color: #00cc66;
+  font-weight: bold;
+}
+
+/* Contact Section */
+#contact {
+  background-color: #0f2a1a;
+  color: #d0ffd0;
+  padding: 80px 20px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+#contact .btn-success {
+  background-color: #00cc66;
+  border: none;
+  font-weight: bold;
+}
+
+#contact .btn-success:hover {
+  background-color: #00994d;
+}
+
+#contact .modal-content {
+  background-color: #ffffff;
+  color: #000;
 }
 
 /* Footer */
