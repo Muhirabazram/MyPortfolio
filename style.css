@@ -271,6 +271,11 @@ section {
 }
 
 /* FAQ Section */
+#faq {
+  background-color: #1e6934;
+  margin-top: 0;
+  margin-bottom: 0;
+}
 #faq .accordion-button {
   background-color: #1c3b2b;
   color: #d0ffd0;
