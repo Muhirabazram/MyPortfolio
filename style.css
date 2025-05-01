@@ -185,6 +185,9 @@ section {
   font-weight: bold;
   color: #ffffff;
 }
+#services .section-title {
+  color: #00cc66;
+}
 #services .btn-primary {
   background-color: #00cc99;
   border: none;
@@ -198,7 +201,7 @@ section {
 
 /* Portfolio Section */
 #portfolio {
-  background-color: #0f2a1a; /* hijau gelap sedikit lebih terang */
+  background-color: #0f2a1a;
   color: #d0ffd0;
   padding: 80px 20px;
 }
