@@ -158,36 +158,69 @@
 </div>
 
 
-<!-- Projects Section -->
-<section id="projects" class="container">
-  <h2 class="text-center">Proyek</h2>
-  <ul class="nav nav-pills mb-3 justify-content-center" id="pills-tab" role="tablist">
-    <li class="nav-item" role="presentation">
-      <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home">Proyek 1</button>
-    </li>
-    <li class="nav-item" role="presentation">
-      <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile">Proyek 2</button>
-    </li>
-  </ul>
-  <div class="tab-content" id="pills-tabContent">
-    <div class="tab-pane fade show active" id="pills-home">
-      <div class="card text-center">
-        <div class="card-body">
-          <h5 class="card-title">Dummy Project 1</h5>
-          <p class="card-text">Deskripsi singkat project 1.</p>
-        </div>
-      </div>
+<!-- Portfolio Section -->
+<section id="portfolio" class="py-5">
+  <div class="container">
+    <h2 class="section-title text-center">PORTFOLIO</h2>
+    <div class="section-divider mx-auto mb-3"></div>
+    <p class="text-center mb-4">This is an example of a project I have already made</p>
+
+    <!-- Filter Buttons -->
+    <div class="text-center mb-4">
+      <button class="btn btn-outline-light active mx-1" data-filter="all">All</button>
+      <button class="btn btn-outline-light mx-1" data-filter="web">Web</button>
+      <button class="btn btn-outline-light mx-1" data-filter="uiux">UI/UX</button>
+      <button class="btn btn-outline-light mx-1" data-filter="design">Design</button>
+      <button class="btn btn-outline-light mx-1" data-filter="photo">Photo</button>
     </div>
-    <div class="tab-pane fade" id="pills-profile">
-      <div class="card text-center">
-        <div class="card-body">
-          <h5 class="card-title">Dummy Project 2</h5>
-          <p class="card-text">Deskripsi singkat project 2.</p>
-        </div>
+
+    <!-- Portfolio Grid -->
+    <div class="row portfolio-container">
+      <div class="col-md-4 mb-4 portfolio-item web">
+        <img src="project1.jpg" class="img-fluid rounded shadow-sm" alt="Project 1">
+      </div>
+      <div class="col-md-4 mb-4 portfolio-item uiux">
+        <img src="project2.jpg" class="img-fluid rounded shadow-sm" alt="Project 2">
+      </div>
+      <div class="col-md-4 mb-4 portfolio-item design">
+        <img src="project3.jpg" class="img-fluid rounded shadow-sm" alt="Project 3">
+      </div>
+      <div class="col-md-4 mb-4 portfolio-item photo">
+        <img src="project4.jpg" class="img-fluid rounded shadow-sm" alt="Project 4">
+      </div>
+      <div class="col-md-4 mb-4 portfolio-item web">
+        <img src="project5.jpg" class="img-fluid rounded shadow-sm" alt="Project 5">
+      </div>
+      <div class="col-md-4 mb-4 portfolio-item uiux">
+        <img src="project6.jpg" class="img-fluid rounded shadow-sm" alt="Project 6">
       </div>
     </div>
   </div>
 </section>
+
+<script>
+  // Portfolio filter script
+  const buttons = document.querySelectorAll("[data-filter]");
+  const items = document.querySelectorAll(".portfolio-item");
+
+  buttons.forEach(btn => {
+    btn.addEventListener("click", () => {
+      const filter = btn.getAttribute("data-filter");
+
+      buttons.forEach(b => b.classList.remove("active"));
+      btn.classList.add("active");
+
+      items.forEach(item => {
+        if (filter === "all" || item.classList.contains(filter)) {
+          item.style.display = "block";
+        } else {
+          item.style.display = "none";
+        }
+      });
+    });
+  });
+</script>
+  
 
 <!-- Skills Section -->
 <section id="skills" class="container">
