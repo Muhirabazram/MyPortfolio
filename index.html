@@ -223,48 +223,64 @@
   
 
 <!-- Skills Section -->
-<section id="skills" class="container">
-  <h2 class="text-center">Skill Saya</h2>
-  <div class="mb-3">
-    <label>HTML</label>
-    <div class="progress">
-      <div class="progress-bar" style="width: 90%;">90%</div>
-    </div>
-  </div>
-  <div class="mb-3">
-    <label>CSS</label>
-    <div class="progress">
-      <div class="progress-bar" style="width: 80%;">80%</div>
-    </div>
-  </div>
-  <div class="mb-3">
-    <label>JavaScript</label>
-    <div class="progress">
-      <div class="progress-bar" style="width: 70%;">70%</div>
-    </div>
-  </div>
-</section>
-
-<!-- Contact Section -->
-<section id="contact" class="text-center">
-  <h2>Kontak Saya</h2>
-  <button class="btn btn-success" data-bs-toggle="modal" data-bs-target="#contactModal">Hubungi Saya</button>
-
-  <div class="modal fade" id="contactModal">
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h5 class="modal-title">Form Kontak</h5>
-          <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+<section id="skills" style="background-color: #112d19; color: #d0ffd0; padding: 80px 20px;">
+  <div class="container">
+    <h2 class="section-title text-center">My Skills</h2>
+    <div class="section-divider mx-auto mb-4"></div>
+    <div class="row">
+      <div class="col-md-4 mb-4">
+        <h5>HTML</h5>
+        <div class="progress">
+          <div class="progress-bar bg-success" style="width: 90%;">90%</div>
         </div>
-        <div class="modal-body">
-          <p>Email: muhirabazram@example.com</p>
-          <p>Instagram: @muhirabazram</p>
+      </div>
+      <div class="col-md-4 mb-4">
+        <h5>CSS</h5>
+        <div class="progress">
+          <div class="progress-bar bg-success" style="width: 80%;">80%</div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-4">
+        <h5>JavaScript</h5>
+        <div class="progress">
+          <div class="progress-bar bg-success" style="width: 70%;">70%</div>
         </div>
       </div>
     </div>
   </div>
 </section>
+
+<!-- Contact Section -->
+<section id="contact" style="background-color: #001a00; color: #d0ffd0; padding: 80px 20px;">
+  <div class="container">
+    <h2 class="section-title text-center">Contact Me</h2>
+    <div class="section-divider mx-auto mb-4"></div>
+    <p class="text-center">Feel free to reach out through the following:</p>
+    <div class="text-center">
+      <p><strong>Email:</strong> muhirabazram@example.com</p>
+      <p><strong>Instagram:</strong> @muhirabazram</p>
+      <button class="btn btn-success" data-bs-toggle="modal" data-bs-target="#contactModal">Open Modal</button>
+    </div>
+  </div>
+
+  <!-- Modal -->
+  <div class="modal fade" id="contactModal">
+    <div class="modal-dialog">
+      <div class="modal-content text-dark">
+        <div class="modal-header">
+          <h5 class="modal-title">Contact Info</h5>
+          <button class="btn-close" data-bs-dismiss="modal"></button>
+        </div>
+        <div class="modal-body">
+          <p><strong>Email:</strong> muhirabazram@example.com</p>
+          <p><strong>Instagram:</strong> @muhirabazram</p>
+          <p><strong>Phone:</strong> 0812-3456-7890</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
 
 <!-- Footer -->
 <footer>
