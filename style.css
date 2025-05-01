@@ -45,6 +45,7 @@ body {
   justify-content: center;
   padding: 30px 15px;
   box-sizing: border-box;
+  margin-top: 0;
 }
 
 .banner-text {
@@ -96,6 +97,7 @@ section {
   padding: 80px 20px;
   background-color: #013220;
   color: #d0ffd0;
+  margin-top: 0;
 }
 
 .section-title {
