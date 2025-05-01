@@ -166,8 +166,8 @@ section {
 /* Services Section Styling */
 #services {
   margin-top: 0;
-  background-color: #112d19;
-  color: #d0ffd0;
+  background-color: #d0ffd0;
+  color: #112d19 ;
   padding: 80px 20px;
 }
 #services .card {
