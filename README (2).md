@@ -42,7 +42,7 @@ Selamat datang di repository portofolio pribadi saya! Website ini menampilkan in
 
 ## Author
 
-**Muhammad Irfan Azram**  
+**Muhammad Irfan Abdul Aziz Ramdani**  
 Instagram: [@muhirabazram](https://instagram.com/muhirabazram)
 
 ---
