@@ -116,8 +116,8 @@ section {
   color: #d0ffd0;
   margin-bottom: 0;
 }
-.about-section .container {
-  max-width: 970px;
+.container{
+  max-width: 1000px;
   margin: 0 auto;
 }
 .about-description {
