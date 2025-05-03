@@ -108,8 +108,7 @@ section {
   border-radius: 2px;
 }
 
-
-/* About Me Section */
+/* About */
 .about-section {
   margin-top: 0;
   padding: 80px 20px;
@@ -117,32 +116,52 @@ section {
   color: #d0ffd0;
   margin-bottom: 0;
 }
-
-#about ul {
+.about-section .container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+.about-description {
+  font-size: 1.1rem;
+  line-height: 1.7;
+  color: #d0ffd0;
+  text-align: left;
+}
+.about-subheading {
+  margin-top: 30px;
+  margin-bottom: 15px;
+  font-weight: bold;
+  text-align: left;
+}
+.about-list {
+  list-style: none;
   padding-left: 0;
+  margin-bottom: 40px;
+  text-align: left;
 }
-
-#about li {
-  margin-bottom: 0.5rem;
+.about-list li {
+  margin-bottom: 10px;
   font-size: 1rem;
-  line-height: 1.5;
 }
-
-#about p.lead {
-  color: #e1e1e1;
+.check-icon {
+  color: #00cc99;
+  margin-right: 10px;
 }
-
-#about a.btn-outline-success {
-  border-color: #00ff88;
-  color: #00ff88;
+.about-btn {
+  padding: 10px 20px;
+  border: 2px solid #00cc99;
+  color: #00cc99;
+  background: transparent;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: 0.3s;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 20px;
 }
-
-#about a.btn-outline-success:hover {
-  background-color: #00ff88;
-  color: #0e261a;
+.about-btn:hover {
+  background-color: #00cc99;
+  color: #000;
 }
-
-
 
 /* Services Section */
 #services {
