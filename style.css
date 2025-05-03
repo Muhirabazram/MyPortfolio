@@ -109,7 +109,15 @@ section {
 }
 
 
-/* About Me specific styling */
+/* About Me Section */
+.about-section {
+  margin-top: 0;
+  padding: 80px 20px;
+  background-color: #013220;
+  color: #d0ffd0;
+  margin-bottom: 0;
+}
+
 #about ul {
   padding-left: 0;
 }
@@ -136,7 +144,7 @@ section {
 
 
 
-/* Services Section Styling */
+/* Services Section */
 #services {
   margin-top: 0;
   margin-bottom: 0;
@@ -292,14 +300,14 @@ footer {
   }
 }
 
-/* Sembunyikan gambar di layar kecil (≤ 767px) */
+/* Sembunyikan fotosaya.jpg di layar kecil (≤ 767px) */
 @media (max-width: 767px) {
   .profile-desktop-only {
     display: none !important;
   }
 }
 
-/* Pastikan tetap muncul di layar besar */
+/* Pastikan fotosaya.jpg tetap muncul di layar besar */
 @media (min-width: 768px) {
   .profile-desktop-only {
     display: block;
