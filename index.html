@@ -339,5 +339,28 @@
   <p>&copy; 2025 Muhirabazram. All Rights Reserved.</p>
 </footer>
 
+<!-- Back to top -->
+<a href="#" class="back-to-top" id="backToTop">&#8679;</a>
+<script>
+  const backToTop = document.getElementById("backToTop");
+  
+  window.addEventListener("scroll", () => {
+    if (window.scrollY > 300) {
+      backToTop.style.display = "block";
+    } else {
+      backToTop.style.display = "none";
+    }
+  });
+
+  backToTop.addEventListener("click", function (e) {
+    e.preventDefault();
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth"
+    });
+  });
+</script>
+  
+  
 </body>
 </html>
