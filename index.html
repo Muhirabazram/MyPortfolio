@@ -340,16 +340,13 @@
 </footer>
 
 <!-- Back to top -->
-<a href="#" class="back-to-top" id="backToTop">&#8679;</a>
+<a href="#" class="back-to-top" id="backToTop">&#8593;</a>
+  
 <script>
   const backToTop = document.getElementById("backToTop");
-  
+
   window.addEventListener("scroll", () => {
-    if (window.scrollY > 300) {
-      backToTop.style.display = "block";
-    } else {
-      backToTop.style.display = "none";
-    }
+    backToTop.style.display = window.scrollY > 300 ? "flex" : "none";
   });
 
   backToTop.addEventListener("click", function (e) {
